@@ -1,0 +1,58 @@
+/* Resetting default margins and paddings */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Common styles for columns */
+.column, .wide-column, .bordercolumn {
+    height: 50px;
+    background-color: #618685;
+    flex: 1;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    padding: 12px;
+    background-color: #c0ded9;
+}
+
+/* Specific column styles */
+.bordercolumn {
+    border: 2px solid black;
+}
+
+.wide-column {
+    flex: 2;
+    border: 2px solid black;
+}
+
+/* Footer styles */
+footer {
+    height: 50px;
+    background-color: #c0ded9;
+    padding: 10px;
+}
+
+/* Column layouts */
+.two-columns, .three-columns, .three-unequal-columns, .four-columns {
+    justify-content: space-between;
+}
+
+/* Adjusting gap for different column layouts */
+.two-columns {
+    gap: 10px;
+}
+
+.three-columns {
+    gap: 12px;
+}
+
+.three-unequal-columns {
+    gap: 15px;
+}
+
+.four-columns {
+    gap: 12px;
+}
